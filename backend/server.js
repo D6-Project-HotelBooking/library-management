@@ -2,7 +2,7 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config(); // Loads environment variables from a .env file
-
+const db = require('./config/db'); 
 // Create an Express application
 const app = express();
 
